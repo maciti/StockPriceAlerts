@@ -1,0 +1,27 @@
+﻿{
+  "alphaVantage": {
+    "apiKey": "" //insert your alpha vantage API key
+  },
+  "twilio": {
+    "accountSid": "", //your twilio account sid
+    "authToken": "", //your twilio auth token
+    "smsFrom": "", //twilio phone number
+    "smsTo": "" //your phone number
+  },
+  "priceAlerts": [
+    {
+      "stockSymbol": "FB", 
+      "priceLowerThan": "150",
+      "priceHigherThan": "190"
+    },
+    {
+      "stockSymbol": "GOOGL",
+      "priceLowerThan": "2000"
+    },
+    {
+      "stockSymbol": "AMZN",
+      "priceLowerThan": "2000"
+    }
+  ],
+  "logOnFile": "true"
+}
