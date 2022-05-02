@@ -3,8 +3,8 @@
 
 1) get free API key from alphavantage https://www.alphavantage.co/
 2) open a twilio trial account with your phone number (the one on which you want to receive the SMSs) https://www.twilio.com/
-3) build the solution
-4) open your BIN folder and modify `stockAlertsSettings.json` inserting alpha vantage and twilio values, and your stock price alerts
+3) build the solution or just download and extract `EXECUTABLE.zip` (for windows)
+4) open the 'bin' folder and modify `stockAlertsSettings.json` inserting alpha vantage and twilio values, and your stock price alerts
 
 ![alt text](https://maciti.github.io/assets/StockPriceAlerts/settings.png)
 
